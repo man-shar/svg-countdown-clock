@@ -109,10 +109,9 @@ function makeClock(containerSelector, { targetSeconds = 20, evHandler = null, w 
 			.attr('class', 'time-arc')
 			.attr(
 				'd',
-				`M ${w / 2} ${h / 2} 
-        L ${xOffset(rEff * Math.sin(fullAngle))} ${yOffset(rEff * Math.cos(fullAngle))} 
-        A ${rEff} ${rEff} 0 0 0 ${w / 2} ${h / 2 - rEff}
-        Z`
+				`M ${w / 2} ${h / 2} L ${xOffset(rEff * Math.sin(fullAngle))} ${yOffset(
+					rEff * Math.cos(fullAngle)
+				)} A ${rEff} ${rEff} 0 0 0 ${w / 2} ${h / 2 - rEff} Z`
 			);
 
 		makeTick(g, rEff, fullAngle, r, 'needle');
