@@ -1,0 +1,29 @@
+{
+  "name": "svg-countdown-clock",
+  "version": "1.0.0",
+  "description": "An SVG countdown clock written in vanilla JS ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manas271196/svg-countdown-clock.git"
+  },
+  "author": "Manas Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manas271196/svg-countdown-clock/issues"
+  },
+  "homepage": "https://github.com/manas271196/svg-countdown-clock#readme",
+  "dependencies": {
+    "d3-selection": "^1.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-prettier": "^3.1.3"
+  }
+}
