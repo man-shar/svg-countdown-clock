@@ -1,6 +1,6 @@
 {
   "name": "svg-countdown-clock",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An SVG countdown clock written in vanilla JS ",
   "main": "index.js",
   "scripts": {
