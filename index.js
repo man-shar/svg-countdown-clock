@@ -1,5 +1,3 @@
-import './main.scss';
-
 const d3 = require('d3-selection');
 
 function makeClock(containerSelector, { targetSeconds = 20, evHandler = null, w = 300, h = 300 }) {
