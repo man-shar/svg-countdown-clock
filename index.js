@@ -1,3 +1,5 @@
+import './main.scss';
+
 const d3 = require('d3-selection');
 
 function makeClock(containerSelector, { targetSeconds = 20, evHandler = null, w = 300, h = 300 }) {
@@ -30,6 +32,7 @@ function makeClock(containerSelector, { targetSeconds = 20, evHandler = null, w 
   const svg = d3
     .select(containerSelector)
     .append('div')
+    .attr('id', 'svg-countdown-clock-container')
     .append('svg')
     .attr('width', w)
     .attr('height', h)

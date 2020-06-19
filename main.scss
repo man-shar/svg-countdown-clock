@@ -1,0 +1,27 @@
+#clocks-container {
+  text-align: center;
+
+  .background-circle {
+    fill: none;
+    stroke: black;
+  }
+
+  .mark {
+    stroke: black;
+    stroke-width: 1px;
+  }
+
+  .time-arc {
+    fill: rgba(255, 140, 0, 0.626);
+  }
+
+  .needle {
+    stroke: black;
+    stroke-width: 2px;
+  }
+
+  .centre-circle {
+    fill: black;
+  }
+}
+}
