@@ -1,5 +1,6 @@
 #svg-countdown-clock-container {
   text-align: center;
+  position: relative;
 
   .background-circle {
     fill: none;
@@ -22,5 +23,21 @@
 
   .centre-circle {
     fill: black;
+  }
+
+  .digital-text-container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .full-arc {
+    fill: rgba(172, 172, 172, 0.26);
+  }
+
+  .digital-arc {
+    fill: white;
   }
 }
